@@ -1,0 +1,8 @@
+
+[34m[1mwandb[39m[22m:   1 of 1 files downloaded.
+2023-12-01 20:41:47,852 INFO: Baseline test RMSPE: 0.007270130319049164
+2023-12-01 20:41:47,852 INFO: Baseline test MAPE: 0.05482805491507293
+2023-12-01 20:42:03,354 INFO: Model test RMSPE: 0.008342017367057314
+2023-12-01 20:42:03,355 INFO: Model test MAPE: 0.057079989093804975
+FutureWarning: inplace is deprecated and will be removed in a future version.
+2023-12-01 20:42:40,624 INFO: Forecasted future values for renderin between 2023-06-29 09:00 and 2023-06-30 08:00.
