@@ -1,0 +1,41 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.18",
+    "heartbeatAt": "2023-12-02T01:20:21.737123",
+    "startedAt": "2023-12-02T01:20:21.063352",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "-m training_pipeline.hyperparameter_tuning",
+    "git": {
+        "remote": "https://github.com/obeshor/energyForecasting.git",
+        "commit": "a851ac9770a83f6986a3e22c5fe44a928416145e"
+    },
+    "email": "yannicksergeobam@gmail.com",
+    "root": "/Users/macbook/PycharmProjects/energyForecasting",
+    "host": "MacBook-Pro-de-macbook.local",
+    "username": "macbook",
+    "executable": "/opt/anaconda3/envs/energyForecasting/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "total": 465.62699127197266,
+        "used": 9.540802001953125
+    },
+    "memory": {
+        "total": 32.0
+    }
+}

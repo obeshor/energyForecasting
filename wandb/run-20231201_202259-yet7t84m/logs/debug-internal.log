@@ -1,0 +1,206 @@
+2023-12-01 20:22:59,545 INFO    StreamThr :91585 [internal.py:wandb_internal():86] W&B internal server running at pid: 91585, started at: 2023-12-01 20:22:59.545222
+2023-12-01 20:22:59,546 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: status
+2023-12-01 20:22:59,558 INFO    WriterThread:91585 [datastore.py:open_for_write():85] open: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/run-yet7t84m.wandb
+2023-12-01 20:22:59,559 DEBUG   SenderThread:91585 [sender.py:send():375] send: header
+2023-12-01 20:22:59,673 DEBUG   SenderThread:91585 [sender.py:send():375] send: run
+2023-12-01 20:22:59,997 INFO    SenderThread:91585 [dir_watcher.py:__init__():219] watching files in: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files
+2023-12-01 20:22:59,997 INFO    SenderThread:91585 [sender.py:_start_run_threads():1124] run started: yet7t84m with start time 1701480179.548327
+2023-12-01 20:22:59,997 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: summary_record
+2023-12-01 20:22:59,997 INFO    SenderThread:91585 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-12-01 20:23:00,004 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: check_version
+2023-12-01 20:23:00,004 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: check_version
+2023-12-01 20:23:00,190 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: run_start
+2023-12-01 20:23:00,201 DEBUG   HandlerThread:91585 [system_info.py:__init__():31] System info init
+2023-12-01 20:23:00,201 DEBUG   HandlerThread:91585 [system_info.py:__init__():46] System info init done
+2023-12-01 20:23:00,201 INFO    HandlerThread:91585 [system_monitor.py:start():181] Starting system monitor
+2023-12-01 20:23:00,202 INFO    SystemMonitor:91585 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-12-01 20:23:00,202 INFO    HandlerThread:91585 [system_monitor.py:probe():201] Collecting system info
+2023-12-01 20:23:00,203 DEBUG   HandlerThread:91585 [system_info.py:probe():195] Probing system
+2023-12-01 20:23:00,203 INFO    SystemMonitor:91585 [interfaces.py:start():190] Started cpu monitoring
+2023-12-01 20:23:00,204 INFO    SystemMonitor:91585 [interfaces.py:start():190] Started disk monitoring
+2023-12-01 20:23:00,204 INFO    SystemMonitor:91585 [interfaces.py:start():190] Started memory monitoring
+2023-12-01 20:23:00,205 INFO    SystemMonitor:91585 [interfaces.py:start():190] Started network monitoring
+2023-12-01 20:23:00,215 DEBUG   HandlerThread:91585 [system_info.py:_probe_git():180] Probing git
+2023-12-01 20:23:00,272 DEBUG   HandlerThread:91585 [system_info.py:_probe_git():188] Probing git done
+2023-12-01 20:23:00,272 DEBUG   HandlerThread:91585 [system_info.py:probe():240] Probing system done
+2023-12-01 20:23:00,272 DEBUG   HandlerThread:91585 [system_monitor.py:probe():210] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.9.18', 'heartbeatAt': '2023-12-02T01:23:00.203493', 'startedAt': '2023-12-02T01:22:59.532464', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '-m training_pipeline.hyperparameter_tuning', 'git': {'remote': 'https://github.com/obeshor/energyForecasting.git', 'commit': 'a851ac9770a83f6986a3e22c5fe44a928416145e'}, 'email': 'yannicksergeobam@gmail.com', 'root': '/Users/macbook/PycharmProjects/energyForecasting', 'host': 'MacBook-Pro-de-macbook.local', 'username': 'macbook', 'executable': '/opt/anaconda3/envs/energyForecasting/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'total': 465.62699127197266, 'used': 9.540802001953125}, 'memory': {'total': 32.0}}
+2023-12-01 20:23:00,272 INFO    HandlerThread:91585 [system_monitor.py:probe():211] Finished collecting system info
+2023-12-01 20:23:00,272 INFO    HandlerThread:91585 [system_monitor.py:probe():214] Publishing system info
+2023-12-01 20:23:00,272 DEBUG   HandlerThread:91585 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-12-01 20:23:00,273 DEBUG   HandlerThread:91585 [system_info.py:_save_pip():67] Saving pip packages done
+2023-12-01 20:23:00,273 DEBUG   HandlerThread:91585 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-12-01 20:23:01,003 INFO    Thread-12 :91585 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/requirements.txt
+2023-12-01 20:23:01,003 INFO    Thread-12 :91585 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/wandb-summary.json
+2023-12-01 20:23:01,003 INFO    Thread-12 :91585 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/conda-environment.yaml
+2023-12-01 20:23:02,326 DEBUG   HandlerThread:91585 [system_info.py:_save_conda():86] Saving conda packages done
+2023-12-01 20:23:02,327 INFO    HandlerThread:91585 [system_monitor.py:probe():216] Finished publishing system info
+2023-12-01 20:23:02,331 DEBUG   SenderThread:91585 [sender.py:send():375] send: files
+2023-12-01 20:23:02,331 INFO    SenderThread:91585 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-12-01 20:23:02,341 DEBUG   SenderThread:91585 [sender.py:send():375] send: telemetry
+2023-12-01 20:23:02,342 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-01 20:23:02,347 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: stop_status
+2023-12-01 20:23:02,723 INFO    wandb-upload_0:91585 [upload_job.py:push():137] Uploaded file /var/folders/q6/cgw7sh0d1f3ftykd28nv7w7c0000gn/T/tmpp819yu9mwandb/l1grlbc1-wandb-metadata.json
+2023-12-01 20:23:02,823 DEBUG   SenderThread:91585 [sender.py:send():375] send: use_artifact
+2023-12-01 20:23:03,004 INFO    Thread-12 :91585 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/conda-environment.yaml
+2023-12-01 20:23:03,004 INFO    Thread-12 :91585 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/wandb-metadata.json
+2023-12-01 20:23:03,096 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-01 20:23:03,096 DEBUG   SenderThread:91585 [sender.py:send():375] send: files
+2023-12-01 20:23:03,097 INFO    SenderThread:91585 [sender.py:_save_file():1378] saving file media/images/cv_scheme_0_9f6f49976401d86660f7.png with policy now
+2023-12-01 20:23:03,097 DEBUG   SenderThread:91585 [sender.py:send():375] send: history
+2023-12-01 20:23:03,097 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: summary_record
+2023-12-01 20:23:03,098 INFO    SenderThread:91585 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-12-01 20:23:03,450 INFO    wandb-upload_0:91585 [upload_job.py:push():137] Uploaded file /var/folders/q6/cgw7sh0d1f3ftykd28nv7w7c0000gn/T/tmpp819yu9mwandb/6plwhf4g-media/images/cv_scheme_0_9f6f49976401d86660f7.png
+2023-12-01 20:23:04,009 INFO    Thread-12 :91585 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/wandb-summary.json
+2023-12-01 20:23:04,009 INFO    Thread-12 :91585 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/media/images/cv_scheme_0_9f6f49976401d86660f7.png
+2023-12-01 20:23:04,009 INFO    Thread-12 :91585 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/media/images
+2023-12-01 20:23:04,010 INFO    Thread-12 :91585 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/media
+2023-12-01 20:23:04,761 INFO    wandb-upload_0:91585 [upload_job.py:push():137] Uploaded file /var/folders/q6/cgw7sh0d1f3ftykd28nv7w7c0000gn/T/tmpp819yu9mwandb/u32an6q1-media/images/cv_scheme_0_9f6f49976401d86660f7.png
+2023-12-01 20:23:05,104 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: status_report
+2023-12-01 20:23:10,118 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: status_report
+2023-12-01 20:23:15,132 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: status_report
+2023-12-01 20:23:17,343 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-01 20:23:17,343 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: stop_status
+2023-12-01 20:23:20,485 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: status_report
+2023-12-01 20:23:25,500 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: status_report
+2023-12-01 20:23:30,516 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: status_report
+2023-12-01 20:23:31,086 INFO    Thread-12 :91585 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/config.yaml
+2023-12-01 20:23:32,353 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-01 20:23:32,354 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: stop_status
+2023-12-01 20:23:33,087 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-01 20:23:33,088 DEBUG   SenderThread:91585 [sender.py:send():375] send: history
+2023-12-01 20:23:33,088 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: summary_record
+2023-12-01 20:23:33,089 INFO    SenderThread:91585 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-12-01 20:23:33,090 INFO    Thread-12 :91585 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/wandb-summary.json
+2023-12-01 20:23:33,090 INFO    Thread-12 :91585 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/output.log
+2023-12-01 20:23:33,263 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: log_artifact
+2023-12-01 20:23:33,263 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: log_artifact
+2023-12-01 20:23:33,498 INFO    SenderThread:91585 [sender.py:send_request_log_artifact():1438] logged artifact config - {'id': 'QXJ0aWZhY3Q6NjU1MDIxMjk2', 'digest': '64e7c61456b10382e2f3b571ac24b659', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'config', 'alias': 'latest'}, {'artifactCollectionName': 'config', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyMDI0MTM2MA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjU1MDIxMjk2', 'versionIndex': 0}}, 'version': 'v0'}
+2023-12-01 20:23:33,498 DEBUG   SenderThread:91585 [sender.py:send():375] send: telemetry
+2023-12-01 20:23:33,498 DEBUG   SenderThread:91585 [sender.py:send():375] send: exit
+2023-12-01 20:23:33,498 INFO    SenderThread:91585 [sender.py:send_exit():598] handling exit code: 0
+2023-12-01 20:23:33,498 INFO    SenderThread:91585 [sender.py:send_exit():600] handling runtime: 33
+2023-12-01 20:23:33,499 INFO    SenderThread:91585 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-12-01 20:23:33,499 INFO    SenderThread:91585 [sender.py:send_exit():606] send defer
+2023-12-01 20:23:33,500 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: defer
+2023-12-01 20:23:33,500 INFO    HandlerThread:91585 [handler.py:handle_request_defer():170] handle defer: 0
+2023-12-01 20:23:33,500 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: defer
+2023-12-01 20:23:33,500 INFO    SenderThread:91585 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-12-01 20:23:33,500 INFO    SenderThread:91585 [sender.py:transition_state():626] send defer: 1
+2023-12-01 20:23:33,500 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: defer
+2023-12-01 20:23:33,500 INFO    HandlerThread:91585 [handler.py:handle_request_defer():170] handle defer: 1
+2023-12-01 20:23:33,500 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: defer
+2023-12-01 20:23:33,501 INFO    SenderThread:91585 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-12-01 20:23:33,501 INFO    SenderThread:91585 [sender.py:transition_state():626] send defer: 2
+2023-12-01 20:23:33,501 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: defer
+2023-12-01 20:23:33,501 INFO    HandlerThread:91585 [handler.py:handle_request_defer():170] handle defer: 2
+2023-12-01 20:23:33,501 INFO    HandlerThread:91585 [system_monitor.py:finish():190] Stopping system monitor
+2023-12-01 20:23:33,501 DEBUG   SystemMonitor:91585 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-12-01 20:23:33,501 DEBUG   SystemMonitor:91585 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-12-01 20:23:33,501 DEBUG   SystemMonitor:91585 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-12-01 20:23:33,502 INFO    HandlerThread:91585 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-01 20:23:33,502 INFO    HandlerThread:91585 [interfaces.py:finish():202] Joined disk monitor
+2023-12-01 20:23:33,502 INFO    HandlerThread:91585 [interfaces.py:finish():202] Joined memory monitor
+2023-12-01 20:23:33,503 INFO    HandlerThread:91585 [interfaces.py:finish():202] Joined network monitor
+2023-12-01 20:23:33,503 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: defer
+2023-12-01 20:23:33,503 INFO    SenderThread:91585 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-12-01 20:23:33,503 INFO    SenderThread:91585 [sender.py:transition_state():626] send defer: 3
+2023-12-01 20:23:33,503 DEBUG   SenderThread:91585 [sender.py:send():375] send: stats
+2023-12-01 20:23:33,503 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: defer
+2023-12-01 20:23:33,504 INFO    HandlerThread:91585 [handler.py:handle_request_defer():170] handle defer: 3
+2023-12-01 20:23:33,504 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: defer
+2023-12-01 20:23:33,504 INFO    SenderThread:91585 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-12-01 20:23:33,504 INFO    SenderThread:91585 [sender.py:transition_state():626] send defer: 4
+2023-12-01 20:23:33,504 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: defer
+2023-12-01 20:23:33,504 INFO    HandlerThread:91585 [handler.py:handle_request_defer():170] handle defer: 4
+2023-12-01 20:23:33,504 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: defer
+2023-12-01 20:23:33,504 INFO    SenderThread:91585 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-12-01 20:23:33,504 INFO    SenderThread:91585 [sender.py:transition_state():626] send defer: 5
+2023-12-01 20:23:33,505 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: defer
+2023-12-01 20:23:33,505 INFO    HandlerThread:91585 [handler.py:handle_request_defer():170] handle defer: 5
+2023-12-01 20:23:33,505 DEBUG   SenderThread:91585 [sender.py:send():375] send: summary
+2023-12-01 20:23:33,505 INFO    SenderThread:91585 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-12-01 20:23:33,506 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: defer
+2023-12-01 20:23:33,506 INFO    SenderThread:91585 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-12-01 20:23:33,506 INFO    SenderThread:91585 [sender.py:transition_state():626] send defer: 6
+2023-12-01 20:23:33,506 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: defer
+2023-12-01 20:23:33,506 INFO    HandlerThread:91585 [handler.py:handle_request_defer():170] handle defer: 6
+2023-12-01 20:23:33,506 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: defer
+2023-12-01 20:23:33,506 INFO    SenderThread:91585 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-12-01 20:23:33,510 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: status_report
+2023-12-01 20:23:33,635 INFO    SenderThread:91585 [sender.py:transition_state():626] send defer: 7
+2023-12-01 20:23:33,635 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: defer
+2023-12-01 20:23:33,635 INFO    HandlerThread:91585 [handler.py:handle_request_defer():170] handle defer: 7
+2023-12-01 20:23:33,635 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: defer
+2023-12-01 20:23:33,635 INFO    SenderThread:91585 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-12-01 20:23:34,091 INFO    Thread-12 :91585 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/config.yaml
+2023-12-01 20:23:34,092 INFO    Thread-12 :91585 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/wandb-summary.json
+2023-12-01 20:23:34,270 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: poll_exit
+2023-12-01 20:23:35,090 INFO    SenderThread:91585 [sender.py:transition_state():626] send defer: 8
+2023-12-01 20:23:35,090 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: poll_exit
+2023-12-01 20:23:35,091 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: defer
+2023-12-01 20:23:35,091 INFO    HandlerThread:91585 [handler.py:handle_request_defer():170] handle defer: 8
+2023-12-01 20:23:35,092 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: defer
+2023-12-01 20:23:35,092 INFO    SenderThread:91585 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-12-01 20:23:35,093 INFO    SenderThread:91585 [sender.py:transition_state():626] send defer: 9
+2023-12-01 20:23:35,093 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: defer
+2023-12-01 20:23:35,093 INFO    HandlerThread:91585 [handler.py:handle_request_defer():170] handle defer: 9
+2023-12-01 20:23:35,093 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: defer
+2023-12-01 20:23:35,093 INFO    SenderThread:91585 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-12-01 20:23:35,093 INFO    SenderThread:91585 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-12-01 20:23:35,094 INFO    Thread-12 :91585 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/output.log
+2023-12-01 20:23:35,094 INFO    SenderThread:91585 [dir_watcher.py:finish():395] scan: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files
+2023-12-01 20:23:35,094 INFO    SenderThread:91585 [dir_watcher.py:finish():409] scan save: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/requirements.txt requirements.txt
+2023-12-01 20:23:35,095 INFO    SenderThread:91585 [dir_watcher.py:finish():409] scan save: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/output.log output.log
+2023-12-01 20:23:35,097 INFO    SenderThread:91585 [dir_watcher.py:finish():409] scan save: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/config.yaml config.yaml
+2023-12-01 20:23:35,099 INFO    SenderThread:91585 [dir_watcher.py:finish():409] scan save: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/wandb-summary.json wandb-summary.json
+2023-12-01 20:23:35,103 INFO    SenderThread:91585 [dir_watcher.py:finish():409] scan save: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/conda-environment.yaml conda-environment.yaml
+2023-12-01 20:23:35,105 INFO    SenderThread:91585 [dir_watcher.py:finish():409] scan save: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/wandb-metadata.json wandb-metadata.json
+2023-12-01 20:23:35,109 INFO    SenderThread:91585 [dir_watcher.py:finish():409] scan save: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/media/images/cv_scheme_0_9f6f49976401d86660f7.png media/images/cv_scheme_0_9f6f49976401d86660f7.png
+2023-12-01 20:23:35,109 INFO    SenderThread:91585 [sender.py:transition_state():626] send defer: 10
+2023-12-01 20:23:35,110 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: defer
+2023-12-01 20:23:35,110 INFO    HandlerThread:91585 [handler.py:handle_request_defer():170] handle defer: 10
+2023-12-01 20:23:35,111 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: defer
+2023-12-01 20:23:35,111 INFO    SenderThread:91585 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-12-01 20:23:35,111 INFO    SenderThread:91585 [file_pusher.py:finish():168] shutting down file pusher
+2023-12-01 20:23:35,275 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: poll_exit
+2023-12-01 20:23:35,275 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: poll_exit
+2023-12-01 20:23:35,383 INFO    wandb-upload_1:91585 [upload_job.py:push():137] Uploaded file /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/output.log
+2023-12-01 20:23:35,521 INFO    wandb-upload_0:91585 [upload_job.py:push():137] Uploaded file /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/requirements.txt
+2023-12-01 20:23:35,577 INFO    wandb-upload_3:91585 [upload_job.py:push():137] Uploaded file /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/wandb-summary.json
+2023-12-01 20:23:35,624 INFO    wandb-upload_2:91585 [upload_job.py:push():137] Uploaded file /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/config.yaml
+2023-12-01 20:23:35,633 INFO    wandb-upload_4:91585 [upload_job.py:push():137] Uploaded file /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/files/conda-environment.yaml
+2023-12-01 20:23:35,838 INFO    Thread-11 :91585 [sender.py:transition_state():626] send defer: 11
+2023-12-01 20:23:35,839 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: defer
+2023-12-01 20:23:35,839 INFO    HandlerThread:91585 [handler.py:handle_request_defer():170] handle defer: 11
+2023-12-01 20:23:35,839 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: defer
+2023-12-01 20:23:35,839 INFO    SenderThread:91585 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-12-01 20:23:35,840 INFO    SenderThread:91585 [file_pusher.py:join():173] waiting for file pusher
+2023-12-01 20:23:35,840 INFO    SenderThread:91585 [sender.py:transition_state():626] send defer: 12
+2023-12-01 20:23:35,840 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: defer
+2023-12-01 20:23:35,840 INFO    HandlerThread:91585 [handler.py:handle_request_defer():170] handle defer: 12
+2023-12-01 20:23:35,840 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: defer
+2023-12-01 20:23:35,840 INFO    SenderThread:91585 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-12-01 20:23:35,953 INFO    SenderThread:91585 [sender.py:transition_state():626] send defer: 13
+2023-12-01 20:23:35,954 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: defer
+2023-12-01 20:23:35,954 INFO    HandlerThread:91585 [handler.py:handle_request_defer():170] handle defer: 13
+2023-12-01 20:23:35,954 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: defer
+2023-12-01 20:23:35,954 INFO    SenderThread:91585 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-12-01 20:23:35,954 INFO    SenderThread:91585 [sender.py:transition_state():626] send defer: 14
+2023-12-01 20:23:35,955 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: defer
+2023-12-01 20:23:35,955 INFO    HandlerThread:91585 [handler.py:handle_request_defer():170] handle defer: 14
+2023-12-01 20:23:35,955 DEBUG   SenderThread:91585 [sender.py:send():375] send: final
+2023-12-01 20:23:35,955 DEBUG   SenderThread:91585 [sender.py:send():375] send: footer
+2023-12-01 20:23:35,955 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: defer
+2023-12-01 20:23:35,956 INFO    SenderThread:91585 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-12-01 20:23:35,956 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: poll_exit
+2023-12-01 20:23:35,957 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: server_info
+2023-12-01 20:23:35,957 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: get_summary
+2023-12-01 20:23:35,957 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: sampled_history
+2023-12-01 20:23:35,958 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: poll_exit
+2023-12-01 20:23:35,958 DEBUG   SenderThread:91585 [sender.py:send_request():402] send_request: server_info
+2023-12-01 20:23:36,023 DEBUG   HandlerThread:91585 [handler.py:handle_request():144] handle_request: shutdown
+2023-12-01 20:23:36,024 INFO    HandlerThread:91585 [handler.py:finish():845] shutting down handler
+2023-12-01 20:23:36,960 INFO    WriterThread:91585 [datastore.py:close():298] close: /Users/macbook/PycharmProjects/energyForecasting/wandb/run-20231201_202259-yet7t84m/run-yet7t84m.wandb
+2023-12-01 20:23:37,024 INFO    SenderThread:91585 [sender.py:finish():1550] shutting down sender
+2023-12-01 20:23:37,025 INFO    SenderThread:91585 [file_pusher.py:finish():168] shutting down file pusher
+2023-12-01 20:23:37,025 INFO    SenderThread:91585 [file_pusher.py:join():173] waiting for file pusher

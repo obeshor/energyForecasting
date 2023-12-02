@@ -1,0 +1,5 @@
+
+RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+2023-12-01 20:16:22,192 INFO: Validation MAPE: 0.15
+2023-12-01 20:16:22,192 INFO: Mean fit time: 2.80 s
+2023-12-01 20:16:22,192 INFO: Mean predict time: 8.12 s
